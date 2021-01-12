@@ -1,0 +1,67 @@
+nohup: ignoring input
+INFO  @ Thu, 17 Oct 2019 10:38:57: Parameters: /home/LOCAL/mageck/bin/mageck count -l yusa_library.csv -n escneg --sample-label plasmid,ESC1 --fastq ERR376998.subsample.fastq ERR376999.subsample.fastq 
+INFO  @ Thu, 17 Oct 2019 10:38:57: Welcome to MAGeCK v0.5.9.2. Command: count 
+INFO  @ Thu, 17 Oct 2019 10:38:57: Header line of the library file detected; skip the first line ... 
+INFO  @ Thu, 17 Oct 2019 10:38:58: Loading 87437 predefined sgRNAs. 
+WARNING @ Thu, 17 Oct 2019 10:38:58: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Thu, 17 Oct 2019 10:38:58: Parsing FASTQ file ERR376998.subsample.fastq... 
+INFO  @ Thu, 17 Oct 2019 10:38:58: Determining the trim-5 length of FASTQ file ERR376998.subsample.fastq... 
+INFO  @ Thu, 17 Oct 2019 10:38:59: Possible gRNA lengths:19 
+INFO  @ Thu, 17 Oct 2019 10:38:59: Processing 0M reads ... 
+INFO  @ Thu, 17 Oct 2019 10:39:02: Read length:50 
+INFO  @ Thu, 17 Oct 2019 10:39:02: Total tested reads: 100000, mapped: 94560(0.9456) 
+INFO  @ Thu, 17 Oct 2019 10:39:02: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 23	88855	0.9396679357021996 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 22	4047	0.04279822335025381 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 24	872	0.00922165820642978 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 21	648	0.006852791878172589 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 20	111	0.0011738578680203047 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 25	11	0.00011632825719120135 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 19	8	8.460236886632826e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 26	4	4.230118443316413e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:02: 18	4	4.230118443316413e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:02: Auto determination of trim5 results: 23 
+INFO  @ Thu, 17 Oct 2019 10:39:02: Possible gRNA lengths:19 
+INFO  @ Thu, 17 Oct 2019 10:39:02: Processing 0M reads .. 
+INFO  @ Thu, 17 Oct 2019 10:39:03: Total: 100000. 
+INFO  @ Thu, 17 Oct 2019 10:39:03: Mapped: 89828. 
+INFO  @ Thu, 17 Oct 2019 10:39:04: Parsing FASTQ file ERR376999.subsample.fastq... 
+INFO  @ Thu, 17 Oct 2019 10:39:04: Determining the trim-5 length of FASTQ file ERR376999.subsample.fastq... 
+INFO  @ Thu, 17 Oct 2019 10:39:04: Possible gRNA lengths:19 
+INFO  @ Thu, 17 Oct 2019 10:39:04: Processing 0M reads ... 
+INFO  @ Thu, 17 Oct 2019 10:39:08: Read length:50 
+INFO  @ Thu, 17 Oct 2019 10:39:08: Total tested reads: 100000, mapped: 93656(0.93656) 
+INFO  @ Thu, 17 Oct 2019 10:39:08: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 23	87989	0.9394913299735201 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 22	4008	0.042794909028786195 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 24	858	0.009161185615443752 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 21	652	0.006961646877936278 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 20	118	0.0012599299564363202 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 25	16	0.00017083796019475527 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 19	6	6.406423507303323e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 18	4	4.270949004868882e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 26	3	3.203211753651661e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:08: 28	2	2.135474502434441e-05 
+INFO  @ Thu, 17 Oct 2019 10:39:08: Auto determination of trim5 results: 23 
+INFO  @ Thu, 17 Oct 2019 10:39:08: Possible gRNA lengths:19 
+INFO  @ Thu, 17 Oct 2019 10:39:08: Processing 0M reads .. 
+INFO  @ Thu, 17 Oct 2019 10:39:09: Total: 100000. 
+INFO  @ Thu, 17 Oct 2019 10:39:09: Mapped: 88887. 
+WARNING @ Thu, 17 Oct 2019 10:39:11: Sample 1 has too many zero-count sgRNAs (0.31037846273897773), and median normalization may be unstable. Consider switching to total read count normalization. 
+INFO  @ Thu, 17 Oct 2019 10:39:11: Final size factor: 1.5000000000000004 2.0 
+INFO  @ Thu, 17 Oct 2019 10:39:12: Summary of file ERR376998.subsample.fastq: 
+INFO  @ Thu, 17 Oct 2019 10:39:12: label	plasmid 
+INFO  @ Thu, 17 Oct 2019 10:39:12: reads	100000 
+INFO  @ Thu, 17 Oct 2019 10:39:12: mappedreads	89828 
+INFO  @ Thu, 17 Oct 2019 10:39:12: totalsgrnas	87437 
+INFO  @ Thu, 17 Oct 2019 10:39:12: zerosgrnas	40817 
+INFO  @ Thu, 17 Oct 2019 10:39:12: giniindex	0.5695368567432515 
+INFO  @ Thu, 17 Oct 2019 10:39:12: Summary of file ERR376999.subsample.fastq: 
+INFO  @ Thu, 17 Oct 2019 10:39:12: label	ESC1 
+INFO  @ Thu, 17 Oct 2019 10:39:12: reads	100000 
+INFO  @ Thu, 17 Oct 2019 10:39:12: mappedreads	88887 
+INFO  @ Thu, 17 Oct 2019 10:39:12: totalsgrnas	87437 
+INFO  @ Thu, 17 Oct 2019 10:39:12: zerosgrnas	45017 
+INFO  @ Thu, 17 Oct 2019 10:39:12: giniindex	0.6138870713257354 
+INFO  @ Thu, 17 Oct 2019 10:39:12: Loading Rnw template file: /home/LOCAL/mageck/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 
+./mageck_esc.sh: line 10: [-e: command not found

@@ -1,0 +1,4 @@
+samples	baseline	esc
+plasmid	1	0
+esc1	1	1
+esc2	1	1

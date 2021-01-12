@@ -1,4 +1,5 @@
 # Creating a conda environment
+*([Brief guide on handling conda environments](https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-file-db185acf5d22))*
 
 This makes sure that all the necessary packages are installed to run the initial mapping and counting pipelines of MAGeCK.
 
